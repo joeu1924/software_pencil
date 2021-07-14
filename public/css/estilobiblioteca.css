@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+h1,h2,h5{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+header {
+    background-color: rgb(131, 174, 99);
+    font-size: 20px;   
+    text-indent: 35px;
+    padding: 15px;
+    font-weight: bold;
+    color:white;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+}
+
+header a{
+    color: white;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+
+    text-decoration: underline;
+
+}
+body {
+    background-image: url(../imagenes/image.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navi {
+    color: black;
+    font-weight: bold;
+}
+img {
+    
+    float:left;
+}
+
+nav {
+    clear:both;
+    background-color: rgb(175, 210, 149);
+    text-align: right;
+    overflow: auto;
+    padding: 10px;
+    width: 100%;
+    
+    
+}
+
+main{
+    clear:both;
+}
+
+
+footer{
+    cleaR:both;
+    background-color:rgb(175, 210, 149) ;
+    text-indent: 30px;
+    padding: 0.5px;
+    font-style: italic;
+    color:white;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: 70px auto;
+    padding: 35px;
+    border:8px solid;
+    border-radius: 10px;
+    border-color:  rgb(131, 174, 99);
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+}
+  
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#pie{
+    float:right
+}
+
+.biblioteca{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
