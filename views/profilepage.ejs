@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>Pencil&Paper</title>
+    <meta charset="UTF-8" />
+    <meta name= "description" content="WebApp de Reuniones para facilitar la Educacion Virtual"/>
+    <meta name="keywords" content="programacion, web, html, ulima,educacion"/>
+    <link rel="icon" href="paper.ico" type="image/vnd.microsoft.icon" size="32x32" />
+    <link rel="stylesheet" href="css/estiloprofile.css" type="text/css" />
+    
+    
+
+
+</head>
+<body>
+    
+    <nav>   
+        <img class="lapi" src="imagenes/image1.jpg " width="50" height="50">
+        <div id="contenedor">
+            <img class="user" src="imagenes/usuario.png" width="60px" height="60px">
+        </div>
+      
+
+    </nav>
+    <main>
+       
+        <section id="caja-1" class="letra">
+            
+                <form action="/salasadd" method="POST">
+                    <br>
+                    <label for="namsala">Nombre de la sala:</label>
+                    <input type="text" name="namesala" id="i1" size="10" >
+                     <br>
+                     <br>
+                     <label for="tamsala">Tamaño de la sala:</label>
+                    <input type="number" name="tamsala" id="i2" size="10" >
+                     <br>
+                     <br>
+                     <label for="temsala">Tema de la sala:</label>
+                    <input type="text" name="temsala" id="i3" size="10" >
+                     <br>
+                     <br>
+                     <label for="tipo"> Tipo de Sala </label>
+                     <select id="tipo" name="tipo">
+                         <option value="tipo"> Seleccionar Tipo</option>
+                         <option value ="privado">Privado</option>
+                         <option value="publico">Publico</option>
+                     </select>
+                     <label for="tipo"> Contraseña: </label>
+                      <input type="password" name="password1" id="password1" class="form-control" >
+                    
+                     <aside>
+                      <button name="botonCrear" type="submit" onclick="location.href='./room'"> Crear Sala</button>
+                  </aside>
+
+                </form>
+
+            
+        </section>  
+
+        <section id="caja-2" class="letra">
+            <img class="lapiz" src="imagenes/image1.jpg " width="200px" height="200px">
+        </section>
+
+        <div class="restaurar"></div>
+
+       
+    </main>
+    <footer>
+         Derechos Reservados &copy; 2021-1
+         <div id="pie">
+         <a href="https://m.facebook.com/" target="_blank">
+          <img src="imagenes/facebook.png" width="50" height="50">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="imagenes/inst.png" width="50" height="50">
+        </a>
+        <a href="https://www.whatsapp.com/" target="_blank">
+          <img src="imagenes/wsp.png" width="50" height="50">
+        </a>
+      </div>
+    </footer>
+</body>
+
+
+</html>
+<footer>
+    
+   
+    Derechos Reservados &copy; 2021-1
+    <div id="pie">
+     <a href="https://m.facebook.com/" target="_blank">
+     
+       <img src="imagenes/facebook.png" width="50" height="50">
+     </a>
+     <a href="https://www.instagram.com/" target="_blank">
+       <img src="imagenes/inst.png" width="50" height="50">
+     </a>
+     <a href="https://www.whatsapp.com/" target="_blank">
+       <img src="imagenes/wsp.png" width="50" height="50">
+   </a>
+ </div>
+ &copy; Iver Castro Rivera / <%= new Date();%>
+
+</footer>
